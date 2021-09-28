@@ -1,10 +1,66 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>3-column flexbox</title>
+
+    <meta name="author" content="Gillian Smith">
+    <meta name="description" content="HTML Flexbox"> <!--Webpage Description -->
+    <meta name="keywords" content="HTML, meta data, Flexbox">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .header {
+        border: 1px solid blue;
+        padding: 15px;
+      }
+
+      .menu {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border:1px solid blue;
+      }
+
+      .main {
+        width: 75%
+        float: left;
+        padding: 15px;
+        border: 1px solid blue;
+      }
+
+      .footer {
+        border: 1px solid blue;
+        padding: 15px;
+      }
+
+    </style>
   </head>
+
   <body>
 
+    <div class="header"><header><h1>Ellie</h1></header></div>
+
+    <div class="menu">
+      <ul>
+        <li>About</li>
+        <li>Hobbies</li>
+        <li>History</li>
+        <li>Family</li>
+      </ul>
+    </div>
+
+    <div class="main">
+      <h1>About</h1>
+      <p>Ellie is a golden retriever and poodle mix. She was born on August 8th, 2018.</p>
+      <p>Resize the browser window to see how the content responds to the resizing.</p>
+    </div>
+
   </body>
+
 </html>
