@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.border {
+  border: thick dotted #382C4C;
+}
+
+.background {
+  background-color: #A393BF;
+}
+
+.borderb {
+  border: thick dotted #1D3B8B;
+}
+
+.backgroundb {
+  background-color: #718FE1;
+}
+
+.borderg {
+  border: thick dotted #59633A;
+}
+
+.backgroundg {
+  background-color: #ADB988;
+}
+
+.bordert {
+  border: thick dotted #3A6359;
+}
+
+.backgroundt {
+  background-color: #88B9AD;
+}
+
+.borderp {
+  border: thick dotted #F08577;
+}
+
+.backgroundp {
+  background-color: #F6B6AD;
+}
+
+a:link, a:hover, a:visited, a:active {
+  color: #DDDDDD;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
