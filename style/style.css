@@ -42,8 +42,40 @@
   background-color: #F6B6AD;
 }
 
+.bordero {
+  border: thick dotted #FF6C00;
+}
+
+.backgroundo {
+  background-color: #FFAA6C;
+}
+
+.borderbl {
+  border: thick dotted #000000;
+}
+
+.backgroundbl {
+  background-color: #818181;
+}
+
+.bordery {
+  border: thick dotted #FFB200;
+}
+
+.backgroundy {
+  background-color: #FFE19B;
+}
+
+.borderbr {
+  border: thick dotted #582900;
+}
+
+.backgroundbr {
+  background-color: #B48D6B;
+}
+
 a:link, a:hover, a:visited, a:active {
-  color: #DDDDDD;
+  color: #F0F0F0;
   text-decoration: none;
 }
 
