@@ -3,7 +3,7 @@
 }
 
 .border {
-  border: thick dotted #382C4C;
+  border: thick dashed #382C4C;
 }
 
 .background {
@@ -72,6 +72,23 @@
 
 .backgroundbr {
   background-color: #B48D6B;
+}
+
+.borderdg {
+  border: 3px solid #023E2D;
+  padding: 15 px;
+}
+
+.backgrounddg {
+  background-color: #047E5B;
+}
+
+.borderm {
+  border: 6px solid #911A53;
+}
+
+.backgroundm {
+  background-color: #C42370;
 }
 
 a:link, a:hover, a:visited, a:active {
